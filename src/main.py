@@ -13,6 +13,8 @@ class Adder():
         return self.val1 * self.val2
     def sub(self):
         return self.val1 - self.val2
+    def add_mod(self):
+        return self.val1 + self.val2 % 2
 if __name__ == "__main__":
     print("Starting program")
 
@@ -20,5 +22,6 @@ if __name__ == "__main__":
     print(adder.getSum())
     print(adder.mult())
     print(adder.sub())
+    print(adder.add_mod())
 
     print("Done with program")
