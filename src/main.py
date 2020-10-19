@@ -11,12 +11,14 @@ class Adder():
         return self.val1 + self.val2
     def mult(self):
         return self.val1 * self.val2
-
+    def sub(self):
+        return self.val1 - self.val2
 if __name__ == "__main__":
     print("Starting program")
 
     adder = Adder(10, 20)
     print(adder.getSum())
     print(adder.mult())
+    print(adder.sub())
 
     print("Done with program")
